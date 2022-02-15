@@ -1,0 +1,6 @@
+---
+# tasks file for test
+  - name: testing ansible.
+    yum: 
+      name: nginx
+      state: installed
